@@ -2,7 +2,7 @@
 //
 // Created by Marcus A. Mosley
 // Created on October 2020
-// This program finds the sqaures of all natural numbers preceding the
+// This program finds the squares of all natural numbers preceding the
 //     number inputted by the user
 
 #include <iostream>
@@ -10,7 +10,7 @@
 #include <cmath>
 
 int main() {
-    // This function finds the sqaures of all natural numbers preceding the
+    // This function finds the squares of all natural numbers preceding the
     //     number inputted by the user
     std::string natural_string;
     int counter;
@@ -33,7 +33,7 @@ int main() {
         } else {
             for (counter = 0; counter <= natural_integer; counter++) {
                 square = pow(counter, 2);
-                std::cout << "The Sqaure of "
+                std::cout << "The Square of "
                 << counter << " is " << square << "!" << std::endl;
             }
         }
